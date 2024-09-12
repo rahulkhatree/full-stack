@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            animation-name: size;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            animation-timing-function: linear;
+        
+        }
+        @keyframes color{
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: aqua;
+            }
+
+        }
+        @keyframes size{
+            0%{
+                margin-left: 0;
+                background-color: green;
+                transform: rotate('0deg');
+                border-radius: 50px;
+            }
+            25%{
+                margin-top: 0%;
+                margin-left: 50%;
+                background-color: red;
+                transform: rotate(90deg);
+                /* border-radius: 50px; */
+                width: 120px;
+                height: 120px;
+            }
+            50%{
+                margin-top: 50%;
+                margin-left: 50%;
+                background-color: yellow;
+                transform: rotate(180deg);
+                width: 140px;
+                height: 140px;
+            }
+            75%{
+                margin-top: 50%;
+                margin-left: 0%;
+                background-color: aqua;
+                transform: rotate(270deg);
+                width: 160px;
+                height: 160px;
+
+            }
+            100%{
+                margin-top: 0%;
+                margin-left: 0%;
+                background-color: black;
+                transform: rotate(360deg);
+                border-radius: 50px;
+                background-image: url(/4375153_logo_whatsapp_icon.png);
+                background-size: cover;
+
+            }
+        }
+        @keyframes circle{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+h2{
+    color: red;
+    font-size: 30px;
+
+}
+p{
+    color: blue;
+    font-size: 20px;
+}
+div{
+    width: 80%;
+    height: 120px;
+    background-color: rgb(235, 235, 152);
+    border: 2px solid green;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 60px;
+}
+body{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Nature-Full-HD-Images-For-Desktop.jpg); 
+    background-repeat: no-repeat;
+
+    
+}
+.a h2{
+    text-decoration: underline;
+}
+.b h2{
+    text-decoration: dashed underline;
+}
+.c h2{
+    text-decoration: dotted underline;
+}
+.d h2{
+    text-decoration: double underline;
+}
