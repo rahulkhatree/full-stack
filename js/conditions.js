@@ -47,22 +47,28 @@ const prompt=require('prompt-sync')()
 // else{
 //     console.log(n3,'is maximum')
 // }
- let n=prompt('enter percentage ')
- if(n>=0 && n<30){
-    console.log('Fail')
- }
- else if(n>=30 && n<50)
- {
-    console.log('Grade C')
+//  let n=prompt('enter percentage ')
+//  if(n>=0 && n<30){
+//     console.log('Fail')
+//  }
+//  else if(n>=30 && n<50)
+//  {
+//     console.log('Grade C')
     
- }
- else if(n>=50 && n<75){
-    console.log('Grade B')
+//  }
+//  else if(n>=50 && n<75){
+//     console.log('Grade B')
 
- }
- else if(n>=75 && n<85){
-    console.log('Grade A')
- }
- else{
-    console.log('Grade A+')
- }
+//  }
+//  else if(n>=75 && n<85){
+//     console.log('Grade A')
+//  }
+//  else{
+//     console.log('Grade A+')
+//  }
+
+
+//terenary operator    shorten of if-else
+//condition ? statement 1 : statement 2
+let age=prompt('enter your age :')
+age>=18 ? console.log('adult') : console.log('minor')
